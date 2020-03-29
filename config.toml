@@ -1,0 +1,92 @@
+baseURL = "http://muhammadfajar84.github.io/"
+languageCode = "en-us"
+title = "Muhammad Fajar | Political Scientist"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "RESEARCH"
+url     = "about"
+weight  = 2
+[[menu.main]]
+name    = "BOOK PROJECT"
+url     = "service"
+weight  = 3
+[[menu.main]]
+name    = "PUBLICATION"
+url     = "gallery"
+weight  = 4
+[[menu.main]]
+name    = "Blog"
+url     = "https://fajarboje.wordpress.com/"
+weight  = 5
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "MUHAMMAD FAJAR"
+description = "PHD CANDIDATE IN THE DEPARTMENT OF POLITICAL SCIENCE AT NORTHWESTERN UNIVERSITY"
+# button
+btn     = true
+btnText = "Download CV"
+btnURL  = "https://themefisher.com/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "SOCIAL MOVEMENT"
+[[params.banner.flipText]]
+title   = "SOUTHEAST ASIA"
+[[params.banner.flipText]]
+title   = "COMPARATIVE POLITICS"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT ME"
+content = "I am a political science graduate student at Northwestern. As a 2013 Arryman Fellow, I researched democracy promotion policies in Indonesia supported by international agencies. His research interests revolve around social movements and democracy promotion. <br> <br> I received a BA in sociology from University of Indonesia (UI). In 2011, I received the Netherlands Fellowship Program (NFP) scholarship for his master’s degree at the Institute of Social Studies, in the Hague, specializing in governance and democracy (G&D)."
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "INSIGHT FROM RESEARCH"
+content = "Understanding democracy as a venue of political struggle among different groups <br> allows us to be more aware of what should be done to transform our ideals into state policies."
+btnText = "Contact me"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = false
+title   = "Latest Works"
+subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"
